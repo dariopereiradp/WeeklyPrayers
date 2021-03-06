@@ -46,14 +46,14 @@ public class BackupHelper {
     private final String notesDB;
     private final String profilePicture;
     private final String backupFolder;
-    private final String backupFile = "dp.pfh.backup";
+    private final String backupFile = "dp.wkp.backup";
     private final String backupFileMime = "application/db";
 
     /**
      * Inicializes all files to backup, that are:
-     * - SharedPreferences: "dp.pfh_preferences.xml"
-     * - Databases: profileDB, prayerDB, notesDB
-     * - Images: you.jpg, she.jpg
+     * - SharedPreferences: "dp.wkp_preferences.xml"
+     * - Databases: prayerDB, notesDB
+     * - Images: you.jpg
      *
      * @param context
      * @param driveServiceHelper
@@ -64,7 +64,7 @@ public class BackupHelper {
         this.driveServiceHelper = driveServiceHelper;
         this.folderId = folderId;
         String appFolder = context.getApplicationInfo().dataDir + File.separator;
-        sharedPrefDB = appFolder + "shared_prefs" + File.separator + "dp.pfh_preferences.xml";
+        sharedPrefDB = appFolder + "shared_prefs" + File.separator + "dp.wkp_preferences.xml";
         backupFolder = appFolder + "backups";
         prayerDB = context.getDatabasePath(PrayerCardDB.DATABASE_NAME).toString();
         notesDB = context.getDatabasePath(NotesDB.DATABASE_NAME).toString();

@@ -61,7 +61,7 @@ public class GoogleSignInFragment extends Fragment implements View.OnClickListen
 
         GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(getContext());
         if (account != null) {
-            Drive googleDriveService = getGoogleAppDataDriveService(getContext(), account, "Pray for Her");
+            Drive googleDriveService = getGoogleAppDataDriveService(getContext(), account, "Weekly Prayer");
             mDriveServiceHelper = new DriveServiceHelper(googleDriveService);
         }
     }
@@ -249,7 +249,7 @@ public class GoogleSignInFragment extends Fragment implements View.OnClickListen
      * We need first to guarantee that Google Drive folder to backup exists. If not, create it.
      */
     public void doDirectBackup() {
-        mDriveServiceHelper.createFolderIfNotExist("Pray for Her", null)
+        mDriveServiceHelper.createFolderIfNotExist("Weekly Prayer", null)
                 .addOnSuccessListener(googleDriveFileHolder -> {
                     if (googleDriveFileHolder != null) {
                         SharedPreferences shp = PreferenceManager.getDefaultSharedPreferences(getContext());

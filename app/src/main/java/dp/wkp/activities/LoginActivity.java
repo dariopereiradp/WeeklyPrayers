@@ -99,8 +99,7 @@ public class LoginActivity extends BaseActivity {
      * This is useful when opening the app through notification click.
      * 1. If it's a prayer reminder notification, it will open PrayerDay activity
      * 2. If it's a note reminder notification, it will open EditNote activity.
-     * 3. If it's a birthday or special days reminder, it will open Main Activity in AboutHerFragment.
-     * 4. If it's a normal app opening, it will open Main Activity in PrayerFragment (that is, the
+     * 3. If it's a normal app opening, it will open Main Activity in PrayerFragment (that is, the
      * initial fragment)
      * <p>
      * The method uses Pending Intent with backIntent to create a back stack, so when the user clicks

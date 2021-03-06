@@ -6,5 +6,5 @@ package dp.wkp.notifications;
  */
 public enum NotificationType {
 
-    PRAYER_REMINDER, DIARY_REMINDER, BIRTHDAY_REMINDER, SPECIAL_DAY_REMINDER
+    PRAYER_REMINDER, DIARY_REMINDER
 }

@@ -49,10 +49,6 @@ public class ImageUtils {
         this.sharedPreferenceKey = sharedPreferenceKey;
     }
 
-    public void openGallery(Fragment fragment) {
-        fragment.startActivityForResult(getChooserIntent(), PICK_IMAGE);
-    }
-
     public void openGallery() {
         activity.startActivityForResult(getChooserIntent(), PICK_IMAGE);
     }

@@ -13,7 +13,7 @@ import java.util.Locale;
 
 /**
  * Activity that stores some important constants. However, the main functionality is to change the language and the app theme.
- * All other acitivities must extend BaseActivity.
+ * All other activities must extend BaseActivity.
  * It overrides attachBaseContext(Context newBase) method to ensure the same language and theme in all activities from the app.
  */
 public class BaseActivity extends AppCompatActivity {

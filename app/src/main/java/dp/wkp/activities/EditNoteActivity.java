@@ -61,7 +61,7 @@ public class EditNoteActivity extends BaseActivity {
             }
         } else inputNote.setFocusable(true);
 
-        color = temp == null ? getColor(R.color.note_backg) : temp.getColor();
+        color = temp == null ? getColor(R.color.note_background) : temp.getColor();
 
         ExtendedFloatingActionButton enc = findViewById(R.id.enc);
         enc.setOnClickListener(v -> encriptar());

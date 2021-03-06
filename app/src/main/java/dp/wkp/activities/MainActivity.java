@@ -56,7 +56,7 @@ import dp.wkp.utils.NavDrawerMenuStack;
 
 /**
  * Activity that contains all fragments, creates notification channels, handle results, reload alarms
- * when restore occurs, etc... Also: controls the backStack, navigation drawer clicks and own profile
+ * when restore occurs, etc... Also: controls the backStack, navigation drawer clicks and profile
  * picture.
  */
 public class MainActivity extends BaseActivity implements NavigationView.OnNavigationItemSelectedListener {

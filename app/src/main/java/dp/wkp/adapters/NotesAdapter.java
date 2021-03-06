@@ -27,8 +27,8 @@ import dp.wkp.callbacks.NoteEventListener;
 import dp.wkp.db.notes.Note;
 import dp.wkp.db.notes.NotesDB;
 import dp.wkp.db.notes.NotesDao;
-import dp.wkp.utils.DateConverter;
 import dp.wkp.notifications.DiaryNoteNotification;
+import dp.wkp.utils.DateConverter;
 
 /**
  * Class to view notes on RecyclerView
@@ -68,7 +68,7 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.NoteHolder> 
     public void onBindViewHolder(@NonNull final NoteHolder holder, int position) {
         final Note note = getNote(position);
         if (note != null) {
-            holder.getLayout().getBackground().setTint(note.getColor() == 0 ? context.getColor(R.color.note_backg) : note.getColor());
+            holder.getLayout().getBackground().setTint(note.getColor() == 0 ? context.getColor(R.color.note_background) : note.getColor());
             holder.getNoteTitle().setText(note.getNoteTitle());
             if (note.getNum_enc() == 0) {
                 holder.getNoteText().setText(note.getNoteText());

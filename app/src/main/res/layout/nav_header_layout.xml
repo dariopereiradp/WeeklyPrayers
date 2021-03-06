@@ -34,9 +34,10 @@
         android:layout_height="wrap_content"
         android:paddingTop="8dp"
         android:hint="@string/your_name"
+        android:fontFamily="@font/proximanovaregular"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
         android:textColor="@android:color/primary_text_dark"
-        android:textSize="14sp" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/nav_header_email_id"
@@ -45,9 +46,10 @@
         android:paddingTop="4dp"
         android:paddingBottom="4dp"
         android:hint="@string/your_mail"
+        android:fontFamily="@font/proximanovaregular"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@android:color/primary_text_dark"
-        android:textSize="14sp" />
+        android:textSize="15sp" />
 
     <View
         android:layout_width="match_parent"

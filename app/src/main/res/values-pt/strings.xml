@@ -6,7 +6,7 @@
     <string name="delete">Apagar</string>
     <string name="no_notes">Sem Notas!</string>
     <string name="save">Salvar</string>
-    <string name="about_version">Versão: 1.0  – 06/03/2021</string>
+    <string name="about_version">Versão: 1.0  – 07/03/2021</string>
     <string name="encriptar">Encriptar</string>
     <string name="desencriptar">Desencriptar</string>
     <string name="msgEnc">"Indique a senha que vai ficar associada a essa encriptação: "</string>
@@ -92,7 +92,7 @@
     <string name="restore_description">Confirme que tem uma conexão à internet. Vai ser feita uma busca no Google Drive pela cópia de segurança mais atual. Os seus dados e configurações atuais serão apagados para sempre!</string>
     <string name="restore_message">Tem a certeza que quer restaurar?</string>
     <string name="backup_message">Quer fazer uma cópia de segurança?</string>
-    <string name="backup_description">Um arquivo de backup (dp.pfh.backup) com todos os dados e configurações vai ser gerado e salvo na sua conta do Google Drive. Se um arquivo de backup já existir, vai ser substituído. Vai precisar de uma conexão à internet.</string>
+    <string name="backup_description">Um arquivo de backup (dp.wkp.backup) com todos os dados e configurações vai ser gerado e salvo na sua conta do Google Drive. Se um arquivo de backup já existir, vai ser substituído. Vai precisar de uma conexão à internet.</string>
     <string name="backup_error">Ocorreu um erro ao fazer o backup. Verifique a conexão à internet e tente novamente. Se o problema persistir, tente \"Desconectar\" a sua conta do Google, faça o login outra vez e autorize o acesso ao Google Drive.</string>
     <string name="fingerprint_click">Clique na imagem abaixo</string>
     <string name="restore_error">Ocorreu um erro. Verifique a sua conexão à internet e tente novamente. Se o problema persistir, confirme se existe um ficheiro de backup (dp.pfh.backup) no seu Google Drive então tente \"Desconectar\" a sua conta do Google e faça login novamente, autorizando acesso ao Google Drive.</string>
