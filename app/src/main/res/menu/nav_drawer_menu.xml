@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_prayer_id"
+            android:icon="@drawable/ic_prayer"
+            android:title="@string/prayer_requests" />
+        <item
+            android:id="@+id/nav_diary_id"
+            android:icon="@drawable/ic_note_black_24dp"
+            android:title="@string/diary" />
+
+        <item android:title="@string/others">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_settings_id"
+                        android:icon="@drawable/ic_settings_black_24dp"
+                        android:title="@string/settings" />
+                    <item
+                        android:id="@+id/nav_google_id"
+                        android:icon="@drawable/ic_google_black"
+                        android:title="@string/google_login" />
+                    <item
+                        android:id="@+id/nav_about_id"
+                        android:icon="@drawable/ic_baseline_info_24"
+                        android:title="@string/about_fragment" />
+                </group>
+            </menu>
+        </item>
+    </group>
+
+</menu>

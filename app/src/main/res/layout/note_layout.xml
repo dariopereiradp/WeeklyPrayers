@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_top"
+    android:background="@drawable/note_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_20">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/note_img"
+                android:layout_width="@dimen/profile_icons_size"
+                android:layout_height="@dimen/profile_icons_size"
+                android:padding="@dimen/padding_8"
+                android:src="@drawable/ic_note_black_24dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/marginLeft_Texts"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/note_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:textSize="@dimen/text_title"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/reminder_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_small_desc" />
+
+                <TextView
+                    android:id="@+id/note_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_small_desc" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/enc"
+            android:layout_width="@dimen/notification_icon"
+            android:layout_height="@dimen/notification_icon"
+            android:src="@drawable/ic_desc_black_24dp" />
+
+        <ImageView
+            android:id="@+id/notification_note"
+            android:layout_width="@dimen/notification_icon"
+            android:layout_height="@dimen/notification_icon"
+            android:src="@drawable/ic_notifications_off_24dp"
+            android:clickable="true"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/note_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_margin_top"
+        android:fontFamily="@font/proximanovaregular"
+        android:ellipsize="end"
+        android:maxLines="5"
+        android:textSize="@dimen/text_medium" />
+</LinearLayout>

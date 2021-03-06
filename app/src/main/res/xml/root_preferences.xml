@@ -1,0 +1,55 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/personal_details">
+
+        <EditTextPreference
+            app:key="name"
+            app:title="@string/your_name"
+            app:useSimpleSummaryProvider="true" />
+
+        <Preference
+            android:key="profile_picture"
+            android:summary="@string/load_image_google_desc"
+            android:title="@string/load_image_google" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/interface_settings">
+
+        <ListPreference
+            app:defaultValue="default"
+            app:entries="@array/languages"
+            app:entryValues="@array/language_values"
+            app:icon="@drawable/ic_baseline_language_24"
+            app:key="language"
+            app:title="@string/language"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="default"
+            app:entries="@array/themes_labels"
+            app:entryValues="@array/themes_values"
+            app:icon="@drawable/ic_dark_theme"
+            app:key="theme"
+            app:title="@string/theme"
+            app:useSimpleSummaryProvider="true" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/other_settings">
+        <SwitchPreferenceCompat
+            app:key="notifications"
+            app:title="@string/prayer_reminders"
+            android:summary="@string/enable_notifications"
+            app:icon="@drawable/ic_schedule_24dp" />
+
+        <dp.wkp.notifications.TimePreference
+            android:key="timePreference"
+            app:dependency="notifications"
+            android:title="@string/notification_time"
+            android:summary="@string/notification_time_desc" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

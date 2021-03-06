@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="196dp"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/ic_header_backg"
+    android:theme="@style/ThemeOverlay.MaterialComponents.Dark">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="1000dp"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/profile_picture"
+            android:clickable="true"
+            android:longClickable="true"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_user" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/nav_header_name_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:hint="@string/your_name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/nav_header_email_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:hint="@string/your_mail"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:background="#15000000" />
+
+</LinearLayout>

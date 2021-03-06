@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.EditNoteActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/edit_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/Theme.AppCompat.Light" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/title"
+            android:hint="@string/title"
+            android:background="@drawable/note_background"
+            android:inputType="textMultiLine|textCapSentences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_toolbar"
+            android:maxLines="3"
+            android:padding="@dimen/padding_10"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="@font/proximanovaregular"
+            android:layout_marginVertical="@dimen/small_margin_top" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_note"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/end_toolbar"
+            android:layout_below="@id/title"
+            android:background="@drawable/edit_note_backg"
+            android:gravity="top"
+            android:hint="@string/write"
+            android:inputType="textMultiLine|textCapSentences"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="5dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/proximanovaregular"
+            android:layout_marginBottom="@dimen/small_margin_top" />
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/end_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/edit_note_backg"
+            android:theme="?attr/actionBarTheme" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/enc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="@dimen/fab_margin"
+        android:text="@string/encriptar"
+        app:backgroundTint="@color/colorPrimary"
+        app:icon="@drawable/ic_enc_black_24dp"
+        app:iconTint="@color/red" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:text="@string/desencriptar"
+        app:backgroundTint="@color/colorPrimary"
+        app:icon="@drawable/ic_desc_black_24dp"
+        app:iconTint="#02BB04" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF039BE5</color>
+    <color name="colorPrimaryDark">#FF2196F3</color>
+    <color name="colorAccent">#FF00BFFF</color>
+    <color name="colorSecondary">#F1F1F1</color>
+
+    <color name="blue_grey_900">#263238</color>
+    <color name="blue_grey_700">#455A64</color>
+    <color name="blue_grey_500">#607D8B</color>
+
+    <color name="fabColor">#26C6DA</color>
+
+    <color name="grey">#E9EAEE</color>
+    <color name="goodgrey">#535353</color>
+
+    <color name="gradient_1">#A7A821</color>
+    <color name="gradient_2">#00FFD8</color>
+
+    <color name="note_backg">#7EBABABA</color>
+    <color name="red">#F91700</color>
+
+    <color name="sunday">#8BC34A</color>
+    <color name="monday">#3F51B5</color>
+    <color name="tuesday">#FF9800</color>
+    <color name="wednesday">#42A5F5</color>
+    <color name="thursday">#673AB7</color>
+    <color name="friday">#F44336</color>
+    <color name="saturday">#26A69A</color>
+</resources>

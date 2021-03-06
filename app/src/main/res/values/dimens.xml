@@ -1,0 +1,25 @@
+<resources>
+    <!--Text sizes-->
+    <dimen name="text_small_desc">12sp</dimen>
+    <dimen name="text_medium">15sp</dimen>
+    <dimen name="text_title">17sp</dimen>
+
+    <!--Margins-->
+    <dimen name="fab_margin">10dp</dimen>
+    <dimen name="small_margin_top">5dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="g_top_margin">100dp</dimen>
+    <dimen name="marginLeft_editTexts">20dp</dimen>
+    <dimen name="marginLeft_Texts">10dp</dimen>
+
+    <!--Paddings-->
+    <dimen name="padding_sections">16dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+
+    <dimen name="profile_icons_size">40dp</dimen>
+    <dimen name="notification_icon">25dp</dimen>
+
+    <dimen name="top_profile_height">240dp</dimen>
+</resources>
