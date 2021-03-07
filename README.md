@@ -4,16 +4,16 @@
 	<p align="center">Android app to help you organize your prayer time for each day of the week</p>
 </p>
 <p align="center">
-	<a href="https://github.com/dariopereiradp/PrayForHer/releases">
+	<a href="https://github.com/dariopereiradp/WeeklyPrayers/releases">
 		<img src="https://img.shields.io/github/v/release/dariopereiradp/WeeklyPrayers" />
 	</a>
-	<a href="https://github.com/dariopereiradp/PrayForHer/tree/master/app">
+	<a href="https://github.com/dariopereiradp/WeeklyPrayers/tree/master/app">
 		<img src="https://img.shields.io/github/languages/top/dariopereiradp/WeeklyPrayers" />
 	</a>
-	<a href="https://github.com/dariopereiradp/PrayForHer/commits/master">
+	<a href="https://github.com/dariopereiradp/WeeklyPrayers/commits/master">
 		<img src="https://img.shields.io/github/last-commit/dariopereiradp/WeeklyPrayers" />
 	</a>
-	<a href="https://github.com/dariopereiradp/PrayForHer/tree/master/app">
+	<a href="https://github.com/dariopereiradp/WeeklyPrayers/tree/master/app">
 		<img src="https://img.shields.io/github/languages/code-size/dariopereiradp/WeeklyPrayers" />
 	</a>
 	<a href="#">
